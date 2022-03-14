@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:15px;
+  margin-right:-5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.Left{
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
